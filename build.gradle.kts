@@ -27,12 +27,12 @@ allprojects {
   apply(plugin = "maven-publish")
   apply(plugin = "signing")
 
-  version = "0.9.0-SNAPSHOT"
+  version = "0.9.1-SNAPSHOT"
   group = "io.reactiverse"
 
-  extra["vertxVersion"] = "4.3.6"
-  extra["opensearchClientVersion"] = "2.4.1"
-  extra["mutinyBindingsVersion"] = "2.29.0"
+  extra["vertxVersion"] = "4.4.2"
+  extra["opensearchClientVersion"] = "2.7.0"
+  extra["mutinyBindingsVersion"] = "2.30.1"
 
   extra["assertjVersion"] = "3.23.1"
   extra["tcVersion"] = "1.17.6"
